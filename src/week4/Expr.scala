@@ -26,7 +26,8 @@ class Sum(e1: Expr, e2: Expr) extends Expr{
   def rightOp: Expr = e2 
 }
 
-/*class Main() extends Expr{
+
+object Main3{
   
   //val e = new Expr()
   def eval(e: Expr): Int = {
@@ -35,9 +36,10 @@ class Sum(e1: Expr, e2: Expr) extends Expr{
     else throw new Error("unknown expression "+e)
   }
   def main(args: Array[String]) = {
+  
+  }
     
-    
-  }*/
+}
 
 
 
