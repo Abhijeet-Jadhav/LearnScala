@@ -1,2 +1,2 @@
 # LearnScala
-Codes written while learning Scala
+Code written while learning Scala
