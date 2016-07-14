@@ -32,6 +32,7 @@ object Coffee {
     foam <- Try(frothMilk("milk"))
   } yield combine(espresso, foam)
   
+  println(Try(grind("arabica beans")))
   def main(args: Array[String]){
     print("asd")
     prepareCappuccino();
